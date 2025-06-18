@@ -4,7 +4,14 @@
   src: url(../fuente/Coolvetica\ Rg.otf);
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+@font-face {
+  font-family: miFuente;
+  font-weight: 400;
+  font-style: italic;
+  src: url(../fuente/Coolvetica\ Rg\ It.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
  body {
   font-family: "Open Sans", sans-serif;
@@ -21,7 +28,7 @@
 
  h1 {
   font-size: 53px;
-  animation: deslizarIzquierda 1.5s ease-out;
+  animation: deslizarIzquierda 2s ease-out;
   text-transform: uppercase;
  }
 
@@ -150,7 +157,8 @@
   color: #b61fd0;
   font-size: 20px;
   font-weight: 800;
-  margin: 15px;
+  font-style: italic;
+  margin: 10px;
 }
 
  @media(max-width: 768px)
